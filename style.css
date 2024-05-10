@@ -2,15 +2,37 @@
     font-family: sans-serif;
 }
 
-body {
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 50px;
+    width: 1300px;
+    position: relative;
+    left: 14px;
+    background-color: rgb(99, 99, 99); /* Color de fondo inicial del botón */
+    color: white; /* Color de texto inicial del botón */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(125, 125, 125);
+    transform: scale(1.01, 1.01);
+}
+
+/* Estilo para el botón cuando está presionado */
+button:active {
     background-color: #d8d8d8d5;
+    color: rgb(99, 99, 99); /* Cambiar el color del texto */
 }
 
 .titulos {
     padding: 1px;
     margin: 20px;
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.178);
+    background-color: rgba(222, 222, 222, 0.837);
     text-align: center;
     border-width: 1;
     border-radius: 5px;
@@ -28,7 +50,7 @@ body {
     padding: 1px;
     margin: 20px;
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.178);
+    background-color: rgba(222, 222, 222, 0.837);
     text-align: center;
     border-width: 1;
     border-radius: 5px;
@@ -46,7 +68,7 @@ body {
     padding: 1px;
     margin: 20px;
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.178);
+    background-color: rgba(222, 222, 222, 0.837);
     text-align: center;
     border-width: 1;
     border-radius: 5px;
@@ -64,7 +86,7 @@ body {
     padding: 1px;
     margin: 20px;
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.178);
+    background-color: rgba(222, 222, 222, 0.837);
     text-align: center;
     border-width: 1;
     border-radius: 5px;
@@ -82,7 +104,7 @@ body {
     padding: 1px;
     margin: 20px;
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.178);
+    background-color: rgba(255, 255, 255, 0.412);
     text-align: center;
     border-width: 1;
     border-radius: 5px;
